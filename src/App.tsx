@@ -8,9 +8,13 @@ function App() {
   ]);
 
   return (
-    <div className="text-3xl font-bold underline text-red-600 flex gap-64">
-      <p>hey</p>
-      <p>hey2wegweg</p>
+    <div className="flex flex-col align-middle text-center gap-32 mt-10 ">
+      <h2>Winner! - Refresh to try again</h2>
+      <div className="flex  flex-col justify-center items-center">
+        <div className="bg-black h-1 w-32 ml-32"></div>
+        <div className=" bg-black h-72 w-1"></div>
+        <div className="bg-black  h-1 w-64"></div>
+      </div>
     </div>
   );
 }
